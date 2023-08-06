@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://file.myfontastic.com/NHFAc793WLbke8xo4uFdak/icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="css/stylesindex.css"> 
+        <link rel="icon" type="image/x-icon" href="imagenes/logopagina.ico">
+    <title>Contacto | Helados</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container containerFlex">
+            <div class="logo-container columna columna--50">
+        
+                <span class="logo">Helados </span>
+                <img src="imagenes/pinkIceLogo.png" class="logopink">
+            </div>
+            <div class="main-header__contactInfo columna columna--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">70796788</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Jordan y Av Oquendo - Universidad Mayor De San Simon , Bolivia</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container containerFlex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu n2" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="sabores.html" class="menu__link">Sabores</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+                <li class="menu__item"><a href="" class="menu__link icon-shopping-cart" ></a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/profile.php?id=100095426535855&mibextid=ZbWKwL" class="social-icon__link"><span class="icon-facebook"><img src="imagenes/facebooklogo.png" width="25px" height="25px"></a>
+                <a href="https://www.instagram.com/pinkicebo/" class="social-icon__link"><span class="icon-twitter"><img src="imagenes/instagramlogo.png" ></a>
+                <a href="https://www.tiktok.com/@pinkice525?_t=8ecZ64gu06o&_r=1" class="social-icon__link"><span class="icon-mail"><img src="imagenes/titktoklogo.png" ></a>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="./imagenes/locales.jpg" alt="" class="banner__img">
+        <div class="banner__content"> Contactate con Nosotros</div>
+    </section>
+    <main class="main">
+        <section class="grupo contacto">
+            <section class="grupo grupo--color">
+                <div class="container">
+                    <h2 class="main__titulo"> Dejanos un mensaje</h2>
+                </div>
+            </section>
+            <div class="container containerFlex">
+                <div class="contacto-info columna columna--50">
+                    <h3 class="columna__title">informacion de contacto</h3>
+                    <p class="columna__txt">¡Gracias por visitarnos! Si tienes alguna consulta, no dudes en contactarnos. Estamos aquí para ayudarte en todo lo que necesites.</p>
+        <p class="columna__txt"><span class="icon-phone"></span>Teléfonos de contacto:</p>
+                    <p class="columna__txt"><span class="icon-phone"></span>Telefono:  70796788</p>
+                    <p class="columna__txt"><span class="icon-phone"></span>Telefono:  76982733</p>
+                    <p class="columna__txt"><span class="icon-location"></span>Jordan y Av Oquendo - Universidad Mayor De San Simon , Bolivia</p>
+                    <p class="columna__txt"><span class="icon-mail"></span>Pinkicebo@gmail.com</p>
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+                    </div>
+                </div>
+
+                <form name="registro" class="formulario columna columna--50">
+                    <label for="" class="formulario__label">Nombre:</label>
+                    <input type="text" class="formulario__input--txt" name="nombre" id="nombre">
+                    <label for="" class="formulario__label">Correo:</label>
+                    <input type="text" class="formulario__input--txt" name="correo" id="correo">
+                    <label for="" class="formulario__label">Telefono:</label>
+                    <input type="text" class="formulario__input--txt" name="telefono" id="telefono">
+                    <label for="" class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formulario__textarea">                       
+                    </textarea>
+                    <button class="btn formulario__btm" onclick="obtenerDatos()" >Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container containerFlex">
+            <div class="columna columna33">
+                <h2 class="columna__title">dirección</h2>
+                <p class="columna__txt">Jordan y Av Oquendo - Universidad Mayor De San Simon , Bolivia</p>
+            </div>
+            <div class="columna columna33">
+                <h2 class="columna__title">contacto</h2>
+                <p class="columna__txt"> Pinkicebo@gmail.com </p>
+                <p class="columna__txt">telefono: 70796788</p>
+
+
+            </div>
+            <div class="columna columna33">
+                <h2 class="columna__title">horarios</h2>
+                <p class="columna__txt">Solo el Viernes 11 de 10am-8pm</p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/saboresFijos.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
